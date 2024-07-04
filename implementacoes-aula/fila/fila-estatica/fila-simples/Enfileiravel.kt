@@ -1,9 +1,9 @@
 interface Enfileiravel {
     //Métodos Principais
-    fun enfileirar(dado: Any?)
-    fun atualizar(dado: Any?)
-    fun desenfileirar(): Any?
-    fun espiar(): Any?
+    fun enfileirar(dado: Any?)  //C
+    fun atualizar(dado: Any?)   //U
+    fun desenfileirar(): Any?   //D
+    fun frente(): Any?          //R
 
 
     //Métodos Auxiliares
