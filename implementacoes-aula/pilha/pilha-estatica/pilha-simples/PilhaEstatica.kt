@@ -34,6 +34,7 @@ class PilhaEstatica : Empilhavel {
         } else {
             println("Stack is empty!")
         }
+        return dadoTopo
     }
 
     override fun espiar(): Any? {
@@ -43,6 +44,7 @@ class PilhaEstatica : Empilhavel {
         } else {
             println("Stack is empty!")
         }
+        return dadoTopo
     }
 
     override fun estaCheia(): Boolean {
